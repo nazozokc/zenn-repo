@@ -6,4 +6,5 @@ topics: [nix, dotfiles, skills, neovim, opencode, claude-code]
 published: false
 ---
 
+# そもそもnixとはなにか
 
