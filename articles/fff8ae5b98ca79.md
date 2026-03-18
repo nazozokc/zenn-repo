@@ -13,6 +13,8 @@ published: true
 ## NazoVimの使い方
 NazoVimはneovimのディストロもどきです。プラグインマネージャーはLazy.nvimを使っています。
 
+![](https://storage.googleapis.com/zenn-user-upload/68dfbf1e2efa-20260318.png)
+
 ### インストール方法
 #### 方法１ nixの環境で試しに使ってみる
 このneovimディストロはnixを使って、本来の設定を汚さずに、NazoVimを試しに使ってみることができます。
