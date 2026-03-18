@@ -59,9 +59,7 @@ NazoVimのキーバインディングは以下のようになっています。
 
 ---
 
-<details>
-<summary>基本操作</summary>
-
+:::details 基本操作
 | キー | 動作 |
 |------|------|
 | `<Leader>h` | 検索ハイライト解除 |
@@ -69,14 +67,11 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>f` | バッファをフォーマット (conform.nvim) |
 | `<Leader>T` | 日本語に翻訳 (n/v) |
 | `<Leader>ob` | ブラウザで開く |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>ファイル・バッファ</summary>
-
+:::details ファイル・バッファ
 | キー | 動作 |
 |------|------|
 | `<Leader><Leader>` | ファイル検索 (snacks Picker) |
@@ -90,7 +85,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>bf` | Neo-tree (バッファ・フロート) |
 | `<Leader>c` | dotfiles を Oil で開く |
 
-### Oil 内キーマップ
+**Oil 内キーマップ**
 
 | キー | 動作 |
 |------|------|
@@ -104,14 +99,11 @@ NazoVimのキーバインディングは以下のようになっています。
 | `g.` | 隠しファイル切替 |
 | `<Esc>` | 閉じる |
 | `?` | ヘルプ表示 |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>バッファ操作</summary>
-
+:::details バッファ操作
 | キー | 動作 |
 |------|------|
 | `<C-PageDown>` | 次のバッファ |
@@ -123,28 +115,22 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<C-A-Space>` | バッファを選択 (BufferPick) |
 | `<ScrollWheelUp>` | 前のバッファ |
 | `<ScrollWheelDown>` | 次のバッファ |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>ウィンドウ移動</summary>
-
+:::details ウィンドウ移動
 | キー | 動作 |
 |------|------|
 | `<C-h>` | 左ウィンドウへ (tmux対応) |
 | `<C-j>` | 下ウィンドウへ (tmux対応) |
 | `<C-k>` | 上ウィンドウへ (tmux対応) |
 | `<C-l>` | 右ウィンドウへ (tmux対応) |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>LSP</summary>
-
+:::details LSP
 | キー | 動作 |
 |------|------|
 | `K` | ホバー |
@@ -159,7 +145,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>;` | Dropbar シンボル選択 |
 | `gp` | Dropbar 開く |
 
-### 診断 (Trouble)
+**診断 (Trouble)**
 
 | キー | 動作 |
 |------|------|
@@ -169,14 +155,11 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>cl` | LSP 一覧 |
 | `<Leader>so` | Aerial シンボルアウトライン |
 | `<Leader>e` | Trouble toggle |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>Git</summary>
-
+:::details Git
 | キー | 動作 |
 |------|------|
 | `<Leader>gd` | DiffviewOpen |
@@ -186,7 +169,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>gp` | Hunk プレビュー |
 | `<Leader>gt` | Blame toggle |
 
-### Diffview コンフリクト解消
+**Diffview コンフリクト解消**
 
 | キー | 動作 |
 |------|------|
@@ -195,7 +178,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>ca` | ALL を選択 |
 | `dx` | コンフリクト削除 |
 
-### GitHub (octo.nvim)
+**GitHub (octo.nvim)**
 
 | キー | 動作 |
 |------|------|
@@ -204,15 +187,12 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>od` | Discussion 一覧 |
 | `<Leader>on` | Notification 一覧 |
 | `<Leader>os` | GitHub 検索 |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>AI</summary>
-
-### Claude Code
+:::details AI
+**Claude Code**
 
 | キー | 動作 |
 |------|------|
@@ -223,11 +203,10 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>am` | モデル選択 |
 | `<Leader>ab` | 現在バッファを追加 |
 | `<Leader>as` | 選択範囲を送信 (visual) |
-| `<Leader>as` | ファイルを追加 (ファイルツリー) |
 | `<Leader>aa` | diff を Accept |
 | `<Leader>ad` | diff を Deny |
 
-### opencode
+**opencode**
 
 | キー | 動作 |
 |------|------|
@@ -238,22 +217,19 @@ NazoVimのキーバインディングは以下のようになっています。
 | `goo` | 行を opencode に追加 |
 | `<S-C-u>` | opencode 半ページ上 |
 | `<S-C-d>` | opencode 半ページ下 |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>エディタ</summary>
-
-### ジャンプ (flash.nvim)
+:::details エディタ
+**ジャンプ (flash.nvim)**
 
 | キー | 動作 |
 |------|------|
 | `<CR>` | Flash ジャンプ (n/x/o) |
 | `<S-CR>` | Flash Treesitter (n/x/o) |
 
-### ワード移動 (nvim-spider)
+**ワード移動 (nvim-spider)**
 
 | キー | 動作 |
 |------|------|
@@ -262,7 +238,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `b` | 前の単語 |
 | `ge` | 前の単語末尾 |
 
-### Surround (mini.surround)
+**Surround (mini.surround)**
 
 | キー | 動作 |
 |------|------|
@@ -271,7 +247,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `sr` | surround 置換 |
 | `sn` | n_lines 更新 |
 
-### 置換 (substitute.nvim)
+**置換 (substitute.nvim)**
 
 | キー | 動作 |
 |------|------|
@@ -280,7 +256,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `S` | 行末まで substitute (n) |
 | `s` | ビジュアル選択を substitute (x) |
 
-### Treesitter Textobjects
+**Treesitter Textobjects**
 
 | キー | 動作 |
 |------|------|
@@ -298,7 +274,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>sn` | 次の引数と swap |
 | `<Leader>sp` | 前の引数と swap |
 
-### 検索 (hlslens + kensaku)
+**検索 (hlslens + kensaku)**
 
 | キー | 動作 |
 |------|------|
@@ -309,14 +285,11 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>l` | virtual text toggle |
 | `/` (cmdline) | kensaku 前方検索 (日本語対応) |
 | `?` (cmdline) | kensaku 後方検索 (日本語対応) |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>デバッグ (DAP)</summary>
-
+:::details デバッグ (DAP)
 | キー | 動作 |
 |------|------|
 | `<F5>` | 実行 / 継続 |
@@ -326,54 +299,42 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>db` | ブレークポイント切替 |
 | `<Leader>B` | 条件付きブレークポイント |
 | `<Leader>du` | DAP UI toggle |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>テスト (neotest)</summary>
-
+:::details テスト (neotest)
 | キー | 動作 |
 |------|------|
 | `<Leader>tr` | 最寄りのテスト実行 |
 | `<Leader>tR` | 全テスト実行 |
 | `<Leader>tf` | ファイルのテスト実行 |
 | `<Leader>to` | テスト出力 toggle |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>セッション (persistence.nvim)</summary>
-
+:::details セッション (persistence.nvim)
 | キー | 動作 |
 |------|------|
 | `<Leader>qs` | セッション復元 |
 | `<Leader>qS` | セッション選択 |
 | `<Leader>ql` | 最後のセッションを復元 |
 | `<Leader>qd` | セッション保存を停止 |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>ターミナル</summary>
-
+:::details ターミナル
 | キー | 動作 |
 |------|------|
 | `<Leader>t` | フローティングターミナル toggle |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>Web 開発</summary>
-
-### REST クライアント (kulala.nvim)
+:::details Web 開発
+**REST クライアント (kulala.nvim)**
 
 | キー | 動作 |
 |------|------|
@@ -381,7 +342,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>Ra` | 全リクエスト送信 |
 | `<Leader>Rb` | スクラッチパッドを開く |
 
-### package.json (package-info.nvim)
+**package.json (package-info.nvim)**
 
 | キー | 動作 |
 |------|------|
@@ -393,33 +354,27 @@ NazoVimのキーバインディングは以下のようになっています。
 | `<Leader>ni` | パッケージ新規インストール |
 | `<Leader>np` | パッケージバージョン変更 |
 
-### Emmet
+**Emmet**
 
 | キー | 動作 |
 |------|------|
 | `<C-e>` | Emmet トリガー |
-
-</details>
+:::
 
 ---
 
-<details>
-<summary>Rust (rust-tools.nvim)</summary>
-
+:::details Rust (rust-tools.nvim)
 | キー | 動作 |
 |------|------|
 | `<Leader>rr` | Rust Runnables |
 | `<Leader>rd` | Rust Debuggables |
 | `<Leader>th` | Inlay Hints toggle |
-
-</details>
+:::
 
 ### プラグイン
 プラグインは以下です。
 
-<details>
-<summary><b>LSP / 補完</b></summary>
-
+:::details LSP / 補完
 | プラグイン | 用途 |
 |------------|------|
 | nvim-lspconfig + mason | LSP管理 |
@@ -433,12 +388,9 @@ NazoVimのキーバインディングは以下のようになっています。
 | fidget.nvim | LSPプログレス表示 |
 | tiny-inline-diagnostic.nvim | インライン診断 |
 | lazydev.nvim | Lua/Neovim API の補完・型チェック強化 |
+:::
 
-</details>
-
-<details>
-<summary><b>Fuzzy Finder / ナビゲーション</b></summary>
-
+:::details Fuzzy Finder / ナビゲーション
 | プラグイン | 用途 |
 |------------|------|
 | snacks.nvim | Picker / Dashboard / Zen / Words / Session |
@@ -450,12 +402,9 @@ NazoVimのキーバインディングは以下のようになっています。
 | flash.nvim | ジャンプ（`<CR>` でスマートジャンプ） |
 | aerial.nvim | シンボルアウトライン |
 | project.nvim | プロジェクトルート自動検出 |
+:::
 
-</details>
-
-<details>
-<summary><b>UI / 見た目</b></summary>
-
+:::details UI / 見た目
 | プラグイン | 用途 |
 |------------|------|
 | kanagawa.nvim | カラースキーム（dragon + 透明） |
@@ -470,12 +419,9 @@ NazoVimのキーバインディングは以下のようになっています。
 | todo-comments.nvim | TODO/FIXME等のハイライト |
 | render-markdown.nvim | Markdownのリッチレンダリング |
 | nvim-highlight-colors | カラーコードのインラインプレビュー |
+:::
 
-</details>
-
-<details>
-<summary><b>Git</b></summary>
-
+:::details Git
 | プラグイン | 用途 |
 |------------|------|
 | gitsigns.nvim | Git差分サインカラム |
@@ -483,12 +429,9 @@ NazoVimのキーバインディングは以下のようになっています。
 | lazygit.nvim | LazyGit統合 |
 | vim-fugitive | Git操作 |
 | octo.nvim | GitHub Issue / PR / Notification 操作 |
+:::
 
-</details>
-
-<details>
-<summary><b>エディタ機能</b></summary>
-
+:::details エディタ機能
 | プラグイン | 用途 |
 |------------|------|
 | nvim-treesitter | シンタックスハイライト / インデント |
@@ -502,24 +445,18 @@ NazoVimのキーバインディングは以下のようになっています。
 | toggleterm.nvim | フローティングターミナル |
 | kulala.nvim | REST client (.http ファイル) |
 | persistence.nvim | セッション管理 |
+:::
 
-</details>
-
-<details>
-<summary><b>AI統合</b></summary>
-
+:::details AI統合
 | プラグイン | 用途 |
 |------------|------|
 | claudecode.nvim | Claude Code統合 |
 | opencode.nvim | opencode統合 |
 | CopilotChat.nvim | GitHub Copilot Chat |
 | copilot.lua | GitHub Copilot補完 |
+:::
 
-</details>
-
-<details>
-<summary><b>デバッグ / テスト</b></summary>
-
+:::details デバッグ / テスト
 | プラグイン | 用途 |
 |------------|------|
 | nvim-dap + nvim-dap-ui | デバッガー |
@@ -527,8 +464,7 @@ NazoVimのキーバインディングは以下のようになっています。
 | neotest | テストランナー |
 | neotest-jest / vitest / playwright | テストアダプタ |
 | nvim-coverage | カバレッジ表示 |
-
-</details>
+:::
 
 ## まとめ
 ぜひ一度使ってみてください！issueやPRはもう大歓迎です！！！！
