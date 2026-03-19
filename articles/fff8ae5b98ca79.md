@@ -455,3 +455,4 @@ NazoVimのキーバインディングは以下のようになっています。
 ## まとめ
 ぜひ一度使ってみてください！issueやPRはもう大歓迎です！！！！
 https://github.com/nazozokc/NazoVim
+https://nazovim-org.github.io/
